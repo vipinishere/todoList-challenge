@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.21",
+    "npm": "^8.19.2"
+  },
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "this is to do list",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vipin kumar",
+  "license": "ISC"
+}

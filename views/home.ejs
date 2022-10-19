@@ -1,0 +1,17 @@
+<%- include("partials/header"); -%>
+    <h1 id="heading" class="box"><%=listTitle%></h1>
+    <div class="box">
+        <% newListItems.forEach(function(item){ %>
+            <div class="item">
+                <input type="checkbox">
+                <p class="item"><%=item%></p>
+            </div>      
+        <% }); %>
+        
+       <form action="/" method="post">
+        <input type="text" name="newItem" placeholder="New Item">
+        <button type="submit" name="button" value="<%=listTitle%>">+</button>
+       </form> 
+    </div>
+</body>
+</html>
